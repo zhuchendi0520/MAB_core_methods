@@ -9,8 +9,8 @@ The workflow was designed to address three related questions:
 1. What constitutes a conservative and stable MAB core genome?
 2. How do mutation, recombination, and selection change before and after DCC
    emergence?
-3. Do accessory-gene turnover and indels provide convergent signals associated
-   with DCC formation?
+3. Does accessory-gene turnover provide convergent signals associated with DCC
+   formation?
 
 The repository focuses on the custom downstream analyses developed for this
 study. Large sequencing datasets and intermediate files are not distributed
@@ -58,14 +58,6 @@ the predicted taxonomic origins of accessory genes.
 
 Scripts: [`scripts/04_accessory_genome`](scripts/04_accessory_genome)
 
-### 5. Indel and large-deletion analyses
-
-Small indels and large deletions were summarized within DCCs and mapped onto
-the phylogeny to estimate independent events. Repeat-associated candidates can
-be filtered before evaluating genomic hotspots and cross-DCC convergence.
-
-Scripts: [`scripts/05_indel_analysis`](scripts/05_indel_analysis)
-
 ## Repository structure
 
 ```text
@@ -77,8 +69,7 @@ MAB_core_methods/
 |   |-- 01_sampling_pangenome/
 |   |-- 02_read_supported_phylogeny/
 |   |-- 03_core_gene_evolution/
-|   |-- 04_accessory_genome/
-|   `-- 05_indel_analysis/
+|   `-- 04_accessory_genome/
 |-- .gitattributes
 `-- README.md
 ```
